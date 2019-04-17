@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9B28F2FE-7D04-411B-85F7-16F3DFA8C47B}</ProjectGuid>
+    <ProjectGuid>{1723C45B-0924-4D29-93F0-74C916D042D7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BankingOne</RootNamespace>
-    <AssemblyName>BankingOne</AssemblyName>
+    <RootNamespace>Program</RootNamespace>
+    <AssemblyName>Program</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,10 +34,6 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Account.cs" />
-    <Compile Include="Transaction.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
